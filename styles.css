@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+    padding-inline: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7EE;
+    margin: 0;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color:  #1E421D;
+}
+h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    color:rgb(79, 70, 28);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 50px 50px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+video {
+    width: 90vw;
+    margin: 5vw;
+}
+
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(199, 199, 199);
+    padding-top: 50px;
+}
+
+.list div {
+    width: 400px;
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+/*-RESPONSIVENESS-*/
+
+@media only screen and (min-width: 1521px) {
+}
+
+@media only screen and (max-width: 1521px) {
+
+    .list div h3{
+        padding-top: 20px;
+    }
+
+    .list div {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        margin: 10px;
+    }
+    .list div h3{
+        padding: 20px 20px;
+    }
+    .list div {
+        width: 90vw;
+    }
+}
